@@ -1,0 +1,9 @@
+<% if  @dictionary %>
+  <% if @included %>
+    <%= "You win" %>
+    <% else %>
+    <%= "Not inside the grid." %>
+  <% end %>
+  <%else %>
+  <%= 'Not an English word' %>
+<% end %>
